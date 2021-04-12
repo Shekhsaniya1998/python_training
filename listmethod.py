@@ -1,0 +1,28 @@
+list=[100,101,500,34,12,500,500]
+print(list.append(1000)) # append the ele at the end of list
+print("append the ele at the end of list",list)
+print(list.insert(2,102)) # add the ele at the specified index pos
+print("add the ele at the specified index pos",list)
+print(list.remove(500))
+print("Remove the value given in remove method",list)
+#print(list.remove(1))
+print(list.pop(4))
+print("count the number of times the ele appear in the list",list.count(500))
+print(len(list))
+print(list)
+print(list.sort())
+print(list)
+print(list.reverse())
+print(list)
+print(list.pop())
+for i in list:
+    print(i)
+#print("delete the ele",del list[0:2]))
+print(100 in list)
+print(list*2)
+print(list.copy())
+print(list.clear())
+#print(del(500))
+#print(del[0])
+print(list)
+print(list)

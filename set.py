@@ -1,0 +1,15 @@
+Days=set(["Mon","Tues","Wed","Thu","Fri","Sat","Sun"])
+Month=set(["Jan","Feb","Mar","Apr","May","Jun","July"])
+Dates=set([1,2,3,4,5,6,7])
+print(Days)
+print(type(Days))
+print(Month)
+print(Dates)
+for d in Days:
+    #for m in Month:
+      #  print(m)
+    print(d)
+Days.add("WED")
+print(Days)
+Days.discard("WED")
+print(Days)
